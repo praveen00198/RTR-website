@@ -1,0 +1,86 @@
+/* Events Page */
+.events {
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .events-body {
+    text-align: center;
+  }
+  
+  .events-body h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .events-body p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+  
+  .filter-buttons {
+    margin-bottom: 2rem;
+  }
+  
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid #007bff;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .filter-btn.active,
+  .filter-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .event-card {
+    background: #fff;
+    border: 2px solid #e6ecf8;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .event-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .event-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 960px) {
+    .events-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .events-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }

@@ -1,0 +1,238 @@
+@media screen and (max-width: 960px) {
+    .hero-body h1 {
+        font-size: 2.5rem;
+    }
+    .hero-body h3 {
+        font-size: 1.5rem;
+    }
+    .hero-body p {
+        font-size: 1.125rem;
+    }
+    .hero-stats {
+        flex-direction: column;
+    }
+    .statsbox {
+        width: 90%;
+        margin: 0.75rem auto;
+        padding: 0.75rem;
+    }
+    .about-body h2 {
+        font-size: 2.25rem;
+    }
+    .about-body p {
+        font-size: 1.125rem;
+    }
+    .skills-body h2 {
+        font-size: 2.25rem;
+    }
+    .skills-body p {
+        font-size: 1.125rem;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .card {
+        border: 2px solid #e6ecf8;
+        border-radius: 0.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .members-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-body h1 {
+      font-size: 2rem;
+    }
+    .hero-body h3 {
+      font-size: 1.25rem;
+    }
+    .hero-body p {
+      font-size: 1rem;
+    }
+    .hero-stats {
+      flex-direction: column;
+    }
+    .statsbox {
+      width: 100%;
+      margin: 0.5rem;
+      padding: 0.5rem;
+    }
+    .about-body h2 {
+      font-size: 2rem;
+    }
+    .about-body p {
+      font-size: 1.5rem;
+    }
+    .skills-body h2 {
+      font-size: 2rem;
+    }
+    .skills-body p {
+      font-size: 1rem;
+    }
+  
+    .cards {
+      grid-template-columns: repeat(1, 1fr);
+      display: grid;
+      align-items: center;
+      justify-content: space-between;
+      /* flex-direction: row; */
+    }
+    
+    .card {
+      border: 2px solid #e6ecf8;
+      border-radius: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      margin: 1rem;
+      padding: 0.75rem;
+      /* background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0)
+      );
+      backdrop-filter: blur(10px); */
+    }
+
+    .members-grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .testimonials-grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+  }
+
+@media  screen and (max-width: 480px) {
+    .hero-body h1 {
+      font-size: 1.5rem;
+    }
+    .hero-body h3 {
+      font-size: 1rem;
+    }
+    .hero-body p {
+      font-size: 0.875rem;
+    }
+    .hero-stats {
+      flex-direction: column;
+    }
+    .statsbox {
+      width: 100%;
+      margin: 0.5rem;
+      padding: 0.5rem;
+    }
+    .about-body h2 {
+      font-size: 1.75rem;
+    }
+    .about-body p {
+      font-size: 0.875rem;
+    }
+    .skills-body h2 {
+      font-size: 1.75rem;
+    }
+    .skills-body p {
+      font-size: 0.875rem;
+    }
+  
+    .cards {
+      grid-template-columns: repeat(1, 1fr);
+      display: grid;
+      align-items: center;
+      justify-content: space-between;
+      /* flex-direction: row; */
+    }
+    
+    .card {
+      border: 2px solid #e6ecf8;
+      border-radius: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      margin: 1rem;
+      padding: 0.75rem;
+      /* background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0)
+      );
+      backdrop-filter: blur(10px); */
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .hero-body h1 {
+      font-size: 1.25rem;
+    }
+    .hero-body h3 {
+      font-size: 0.875rem;
+    }
+    .hero-body p {
+      font-size: 0.75rem;
+    }
+    .hero-stats {
+      flex-direction: column;
+    }
+    .statsbox {
+      width: 100%;
+      margin: 0.5rem;
+      padding: 0.5rem;
+    }
+    .about-body h2 {
+      font-size: 1.5rem;
+    }
+    .about-body p {
+      font-size: 0.75rem;
+    }
+    .skills-body h2 {
+      font-size: 1.5rem;
+    }
+    .skills-body p {
+      font-size: 0.75rem;
+    }
+  
+    .cards {
+      grid-template-columns: repeat(1, 1fr);
+      display: grid;
+      align-items: center;
+      justify-content: space-between;
+      /* flex-direction: row; */
+    }
+    
+    .card {
+      border: 2px solid #e6ecf8;
+      border-radius: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      margin: 1rem;
+      padding: 0.75rem;
+      /* background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0)
+      );
+      backdrop-filter: blur(10px); */
+    }
+    
+}
