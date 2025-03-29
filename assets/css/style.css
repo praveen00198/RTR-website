@@ -592,3 +592,9 @@ li {
   color: #777;
 }
 
+/* Menu */
+#menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
